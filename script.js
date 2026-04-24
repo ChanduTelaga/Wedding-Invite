@@ -55,3 +55,7 @@ document.getElementById("rsvpForm").addEventListener("submit", function () {
     document.getElementById("rsvpThanks").style.display = "block";
   }, 1200);
 });
+
+
+//Disable right click
+document.addEventListener("contextmenu", (e) => e.preventDefault());
