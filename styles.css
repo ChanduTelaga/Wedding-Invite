@@ -40,7 +40,7 @@ nav {
 }
 .nav-brand {
   font-family: "Great Vibes", cursive;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   color: var(--gold-dark);
   letter-spacing: 1px;
 }
@@ -51,8 +51,8 @@ nav {
 }
 .nav-links a {
   font-family: "Cinzel", serif;
-  font-size: 0.65rem;
-  letter-spacing: 2.5px;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--brown-light);
   text-decoration: none;
@@ -85,7 +85,7 @@ nav {
 
 .hero-badge {
   font-family: "Cinzel", serif;
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   letter-spacing: 5px;
   color: var(--gold);
   text-transform: uppercase;
@@ -98,7 +98,7 @@ nav {
 }
 .hero-name-top {
   font-family: "Cinzel", serif;
-  font-size: clamp(2rem, 5vw, 3.8rem);
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
   font-weight: 500;
   color: var(--brown);
   letter-spacing: 4px;
@@ -106,7 +106,7 @@ nav {
 }
 .hero-and {
   font-family: "Great Vibes", cursive;
-  font-size: clamp(2.8rem, 6vw, 4.8rem);
+  font-size: clamp(3rem, 7vw, 5.2rem);
   color: var(--gold);
   line-height: 1.2;
   display: block;
@@ -114,7 +114,7 @@ nav {
 }
 .hero-name-bottom {
   font-family: "Cinzel", serif;
-  font-size: clamp(2rem, 5vw, 3.8rem);
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
   font-weight: 500;
   color: var(--brown);
   letter-spacing: 4px;
@@ -144,7 +144,7 @@ nav {
 
 .hero-date {
   font-family: "Cinzel", serif;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   letter-spacing: 4px;
   font-weight: 500;
   color: var(--brown-light);
@@ -153,7 +153,7 @@ nav {
 }
 .hero-venue-tag {
   font-style: italic;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   color: var(--gold-dark);
   animation: fadeUp 1s 0.6s ease both;
 }
@@ -226,7 +226,7 @@ section {
 
 .section-label {
   font-family: "Cinzel", serif;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 5px;
   color: var(--gold);
@@ -237,7 +237,7 @@ section {
 
 .section-title {
   font-family: "Great Vibes", cursive;
-  font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+  font-size: clamp(2.4rem, 5vw, 3.4rem);
   color: var(--brown);
   text-align: center;
   margin-bottom: 0.4rem;
@@ -305,7 +305,7 @@ section {
   margin-bottom: 0.6rem;
 }
 .story-card p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.8;
   color: var(--brown-light);
   font-style: italic;
@@ -344,7 +344,7 @@ section {
 }
 .schedule-time {
   font-family: "Cinzel", serif;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   letter-spacing: 0.5px;
   color: var(--gold-dark);
   min-width: 75px;
@@ -362,13 +362,13 @@ section {
 }
 .schedule-content h4 {
   font-family: "Cinzel", serif;
-  font-size: 0.78rem;
+  font-size: 0.95rem;
   letter-spacing: 1.5px;
   color: var(--brown);
   margin-bottom: 0.25rem;
 }
 .schedule-content p {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: var(--brown-light);
   font-style: italic;
 }
@@ -469,14 +469,14 @@ section {
 }
 .venue-card h3 {
   font-family: "Cinzel", serif;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: var(--brown);
   letter-spacing: 3px;
   margin-bottom: 0.8rem;
 }
 .venue-card p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--brown-light);
   font-style: italic;
   line-height: 1.8;
@@ -502,7 +502,7 @@ section {
   margin-bottom: 0.25rem;
 }
 .venue-detail-item .value {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--brown);
 }
@@ -553,7 +553,7 @@ section {
 .rsvp-form {
   display: flex;
   flex-direction: column;
-  gap: 1.1rem;
+  gap: 1.4rem;
 }
 .form-row {
   display: grid;
@@ -567,7 +567,7 @@ section {
 }
 .form-group label {
   font-family: "Cinzel", serif;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   letter-spacing: 2.5px;
   color: var(--gold-light);
   text-transform: uppercase;
@@ -579,8 +579,8 @@ section {
   border: 0.5px solid rgba(201, 168, 76, 0.4);
   color: var(--cream);
   font-family: "Cormorant Garamond", serif;
+  padding: 0.9rem 1.2rem;
   font-size: 1rem;
-  padding: 0.7rem 0.9rem;
   outline: none;
   transition: border-color 0.2s;
   -webkit-appearance: none;
@@ -606,13 +606,13 @@ section {
 
 .rsvp-submit {
   font-family: "Cinzel", serif;
-  font-size: 0.65rem;
+  font-size: 0.85rem;
+  padding: 1rem 2.5rem;
   letter-spacing: 3px;
   text-transform: uppercase;
   background: var(--gold);
   color: var(--brown);
   border: none;
-  padding: 0.9rem 2.5rem;
   cursor: pointer;
   transition: all 0.3s;
   align-self: center;
@@ -650,13 +650,13 @@ footer {
 }
 .footer-names {
   font-family: "Great Vibes", cursive;
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   color: var(--gold);
   margin-bottom: 0.4rem;
 }
 footer p {
   font-family: "Cinzel", serif;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   letter-spacing: 3.5px;
   color: rgba(201, 168, 76, 0.5);
   text-transform: uppercase;
@@ -697,7 +697,7 @@ footer p {
   transform: translateY(0);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .story-grid {
     grid-template-columns: 1fr;
   }
